@@ -638,35 +638,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* ═══════ CHANGELOG — small editorial ═══════ */}
-        <section className="border-t border-[#161513]/12 bg-[#EFEDE6] py-14 sm:py-16">
-          <div className="mx-auto max-w-[860px] px-5 sm:px-6">
-            <R>
-              <div className="flex items-baseline justify-between mb-6">
-                <h2 className="serif text-[clamp(1.8rem,4vw,2.6rem)] tracking-tight">
-                  Changelog
-                </h2>
-                <span className="text-[11.5px] text-[#6B6862]">5 versi terakhir</span>
-              </div>
-            </R>
-            <R>
-              <ul className="divide-y divide-[#161513]/10 border-y border-[#161513]/10">
-                {CHANGELOG.map((c) => (
-                  <li
-                    key={c.v}
-                    className="grid grid-cols-[70px_80px_1fr] gap-4 py-3 items-baseline"
-                  >
-                    <span className="serif text-[16px] text-[#161513]">
-                      v{c.v}
-                    </span>
-                    <span className="text-[12px] text-[#6B6862]">{c.date}</span>
-                    <span className="text-[13.5px] text-[#3F3D38]">{c.d}</span>
-                  </li>
-                ))}
-              </ul>
-            </R>
-          </div>
-        </section>
+      
 
         {/* ═══════ CTA ═══════ */}
         <section className="border-t border-[#161513]/12 py-20 sm:py-28">
