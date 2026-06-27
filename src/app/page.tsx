@@ -54,7 +54,7 @@ const SPECS = [
   ["Storage", "File JSON, ga perlu DB"],
   ["Ukuran SC", "340 KB (zipped)"],
   ["Dependensi", "8 packages"],
-  ["Pertama rilis", "awal 2024"],
+  ["Pertama rilis", "April 2026"],
   ["User aktif", "40-70 an (naik turun)"],
 ];
 
@@ -142,13 +142,7 @@ const INCLUDED = [
   "Akses update versi baru (paket 15K only)",
 ];
 
-const CHANGELOG = [
-  { v: "2.7.5", d: "Fix bug pushkontak crash di nomor baru", date: "jun 2026" },
-  { v: "2.7.0", d: "Tambah multi-bot paralel sampai 5 nomor", date: "mei 2026" },
-  { v: "2.6.0", d: "Rewrite menu jadi button interaktif", date: "mar 2026" },
-  { v: "2.5.0", d: "Tambah SWGC + autoswgc", date: "feb 2026" },
-  { v: "2.0.0", d: "Rewrite total, pindah ke Baileys", date: "des 2025" },
-];
+
 
 /* ════════════════════════════════════════════════════
    HOOK
